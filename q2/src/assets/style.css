@@ -1,0 +1,50 @@
+/* styles.css */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.people-list-container {
+  flex: 1;
+  overflow-y: auto;
+  height: 70%; /* Adjust the height to allocate space for PersonDetails */
+  border-top: 0.25em solid black;
+  padding: 0.5em;
+}
+
+.person-details-container {
+  height: 30%; /* Set the height to 30% of the screen */
+  overflow-y: auto; /* Enable scrolling if needed */
+
+}
+img {
+  width: 48px;
+  height: 48px;
+}
+
+.person-detail-image{
+  width: 128px;
+  height: 128px;
+  display: inline;
+}
+
+.person-detail{
+  border-top: 0.25em solid black;
+  padding: 0.5em;
+}
+
+button {
+  width: 50%;
+  height: 4rem;
+  font-size: large;
+}
+
+.error-div {
+  background-color: RED;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+}
